@@ -10,7 +10,7 @@
 #include <unistd.h>
 int main()
 {
-pid t pid, pid1;
+pid_t pid, pid1;
 /* fork a child process */
 pid = fork();  
 if (pid < 0) { /* error occurred */
@@ -50,7 +50,7 @@ return 0;
 #include <unistd.h>
 int main()
 {
-pid t pid, pid1;
+pid_t pid, pid1;
 /* fork a child process */
 pid = fork();
 if (pid < 0) { /* error occurred */
